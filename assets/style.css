@@ -100,13 +100,15 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link, .nav-link.active-tag { /* .nav-link.active-tag pour la catégorie */
+	color: #ffff !important;  /* important */
 	background-color: #BEB45A;
 	border-radius:0 ;
+	cursor: pointer;  /* pointer */
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
@@ -243,6 +245,14 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+.active.active-tag {
+	color: #ffff;
+	background-color: #BEB45A;
+	border-radius:0 ;
+}
+
+
 
 @media all and (max-width: 1180px) {
 	.picture {
