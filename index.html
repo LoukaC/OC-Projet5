@@ -18,17 +18,47 @@
 	<!-- Schema.org meta for Google+ -->
 	<meta itemprop="name" content="Nina Carducci - Photographe" />
 	<meta itemprop="description" content="Nina Carducci photographie un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels" />
-	<meta itemprop="image" content="" />
-	<meta itemprop="streetAddress" content="68 avenue Alsace-Lorraine">
-	<meta itemprop="adressLocality" content="Bordeaux">
-	<meta itemprop="adressRegion" content="Gironde">
-	<meta itemprop="postalCode" content="33000">
 	<!-- Open Graph meta (Facebook, Linkedin) -->
 	<meta property="og:title" content="Nina Carducci - Photographe" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Nina Carducci photographie un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels" />
 	<meta property="author" content="Nina Carducci" />
-	<meta property="og:image" content="" />
+	<!-- Rich Snippets -->
+	<script type="application/ld+json"> 
+    {
+      "@context": "https://schema.org",
+      "@type": "Photographe",
+      "image": [
+        "./assets/images reduites/slider/ryoji-iwata-entreprise.webp",
+        "./assets/images reduites/slider/nicholas-green-concert.webp",
+        "./assets/images reduites/slider/edward-cisneros-wedding.webp"
+       ],
+      "name": "Nina Carducci - Photographe",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "68 avenue Alsace-Lorraine",
+        "addressLocality": "Bordeaux",
+        "addressRegion": "Gironde",
+        "postalCode": "33200",
+        "addressCountry": "FRANCE"
+      },
+      "telephone": "+33556677889",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+			"Monday",
+			"Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
 	<header> <!-- Ajout d'une balise header -->
